@@ -1,0 +1,29 @@
+* **********************************
+* Network   (KNETWK): IU
+* Station   (KSTNM) : ULN
+* Component (KCMPNM): BHZ
+* Location  (KHOLE) : 00
+* Start             : 2009,261,00:00:00
+* End               : N/A
+* Input Units       : METERS
+* Output Units      : COUNTS
+* Latitude          :  47.865100
+* Longitude         :  107.053200
+* Elevation         :  1610.0
+* Depth             : 1610.0
+* Dip               : -90.0
+* Azimuth           :   0.0
+* Instrument Comment: N/A
+* Channel Flag      : CG
+* **********************************
+ZEROS 5
+-0.0243  0.0000
+-0.0243  0.0000
+POLES 6
+-0.0123  0.0123
+-0.0123  -0.0123
+-0.0220  0.0000
+-0.0268  0.0000
+-39.1800  49.1200
+-39.1800  -49.1200
+CONSTANT 4.203005e+12
