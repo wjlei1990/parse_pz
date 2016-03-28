@@ -45,6 +45,9 @@ def split_content(content):
 
 
 def __extract_float_values(content, array):
+    """
+    Extract float values from pz files
+    """
 
     for idx, line in enumerate(content):
         number_pattern = r"\s*([-+]?\d*\.\d+|\d+)"
@@ -109,6 +112,9 @@ def _get_header(content):
 
 
 def _convert_datatype(info):
+    """
+    Convert values into certain type
+    """
     for key, value in info.iteritems():
         if key in ["LOCATION", ]:
             continue
@@ -146,6 +152,9 @@ def extract_pz_info(content):
 
 
 def parse_pz(filename):
+    """
+    Function that parse a txt pole and zeros file
+    """
 
     if isinstance(filename, str):
         with open(filename) as fh:
